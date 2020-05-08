@@ -1,0 +1,18 @@
+.blackLetter{
+    color: black !important;
+}
+.center{
+    text-align: center !important;
+}
+.font{
+    font-family: 'Arimo', sans-serif;
+}
+.navbrand{
+    width: 60% !important;
+}
+.nav-item:hover {
+    color: red !important;
+}
+.preFooter{
+    padding: 0.5%;
+}
