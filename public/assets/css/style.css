@@ -94,7 +94,7 @@
   background-size: cover;
 }
 .inducidaInicio{
-  background-image: url("/assets/images/Obra-inducida.jpg");
+  background-image: url("/assets/images/obraInducida.jpg");
   height: 200pt; 
   background-position: center;
   background-repeat: no-repeat;
@@ -199,6 +199,9 @@
     }
     .jumboTitle1{
         font-size: 2.5rem !important;
+    }
+    .titleStyleInicio{
+        width: 123%;
     }
     .proyectos-bg{
         height: 300pt; 
