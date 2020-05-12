@@ -1,6 +1,11 @@
 .blackLetter{
     color: black !important;
 }
+/* hr{
+    background-color: red;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+} */
 .underlined{
     text-decoration: underline;
   }
@@ -33,6 +38,11 @@
 }
 .preFooter{
     padding: 1%;  
+}
+.contactSiteMap{
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.877);
+    color: grey !important;
 }
 .proyectosContact{
     margin-top: 5%;
@@ -149,9 +159,9 @@
     margin-top: 4%;
 }
 
-.inicioBody{
+/* .inicioBody{
     margin-bottom: 5%;
-}
+} */
 .posibleTitle{
     position: relative;
     top: 10%;
@@ -187,7 +197,25 @@
     margin-bottom: 4%;
     margin-top: 4%;
 }
+.siteMap, .contactFooter{
+    margin-top: 3%;
+    margin-left: 2%;
+    padding: 3%;
+}
+.contactFooterTitles{
+    color: sandybrown !important;
+}
 
+.siteMapItem{
+    color: grey !important;
+}
+.siteMapItem:hover, .contactFooterItems:hover{
+    color: sandybrown !important;
+    cursor: pointer;
+}
+.contactoFooterItem{
+    margin-bottom: 5%;
+}
 
 @media (max-width: 768px) {
     .innerDiv{
@@ -247,6 +275,12 @@
     }
     .copyrightT{
         font-size: 14px;
+        position: relative;
+        top: 22%;
+    }
+    .contactSiteMap{
+        height: 850px;
+
     }
 }
 
