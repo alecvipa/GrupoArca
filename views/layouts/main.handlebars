@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="/assets/css/style.css" type="text/css" />
     <link href="https://fonts.googleapis.com/css2?family=Arimo&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a077a0470e.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+
 
 <body>
     <div class="bg-dark center preFooter">
@@ -77,31 +79,38 @@
                             <br>
                             <h5 class="contactoFooterItem"><a href="https://api.whatsapp.com/send?phone=525588488288"
                                     target="_blank" rel="noopener noreferrer"><i class="fab fa-whatsapp"
-                                        style="color: grey;"> <span class="contactFooterItems font" style="color: grey;">
+                                        style="color: grey;"> <span class="contactFooterItems font"
+                                            style="color: grey;">
                                             Whatsapp</span></i></a></h5>
                             <h5 class="contactoFooterItem "><i class="fas fa-phone-square-alt" style="color: grey;">
-                                    <span class="font"><a class="contactFooterItems" style="color: grey;" href="tel:+525588488288">55
+                                    <span class="font"><a class="contactFooterItems" style="color: grey;"
+                                            href="tel:+525588488288">55
                                             88 48 82
                                             88</a></span></i></h5>
                     </div>
                     <div class="col-sm contactFooter">
                         <h4 class="contactFooterTitles">SÍGUENOS</h4>
                         <br>
-                        <h5 class="contactoFooterItem"><a class="contactFooterItems" href="https://web.facebook.com/arcaconstruccionesmx/"
-                                target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook fa-w-14 fa-lg"
-                                    style="color: grey; "></i><span class="contactFooterItems font" style="color: grey;" class="font">
+                        <h5 class="contactoFooterItem"><a class="contactFooterItems"
+                                href="https://web.facebook.com/arcaconstruccionesmx/" target="_blank"
+                                rel="noopener noreferrer"><i class="fab fa-facebook fa-w-14 fa-lg"
+                                    style="color: grey; "></i><span class="contactFooterItems font" style="color: grey;"
+                                    class="font">
                                     Facebook</span></a></h5>
-                        <h5 class="contactoFooterItem"><a class="contactFooterItems" href="https://www.instagram.com/arca_construcciones/"
-                                target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram fa-w-14 fa-lg"
-                                    style="color: grey;"></i><span class="contactFooterItems font" style="color: grey;" class="font">
+                        <h5 class="contactoFooterItem"><a class="contactFooterItems"
+                                href="https://www.instagram.com/arca_construcciones/" target="_blank"
+                                rel="noopener noreferrer"><i class="fab fa-instagram fa-w-14 fa-lg"
+                                    style="color: grey;"></i><span class="contactFooterItems font" style="color: grey;"
+                                    class="font">
                                     Instagram</span></a></h5>
                     </div>
                     <div class="col-sm contactFooter">
                         <h4 class="contactFooterTitles">NOSOTROS</h4>
                         <h6>
-                            Nuestro trabajo lo sustentan nuestro equipo de personas y sus familias. 
+                            Nuestro trabajo lo sustentan nuestro equipo de personas y sus familias.
                             <br>
-                            Así como, nuestros clientes, que eligieron confiar en nosotros y con los que hemos construído una relación estrecha y de respeto
+                            Así como, nuestros clientes, que eligieron confiar en nosotros y con los que hemos
+                            construído una relación estrecha y de respeto
                             <br>
                             <h6><a href="/nosotros">Leer más...</a></h6>
                         </h6>
@@ -116,7 +125,7 @@
             </h7>
         </div>
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    {{!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> --}}
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
         crossorigin="anonymous"></script>
@@ -124,6 +133,18 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
+    <script src="/assets/js/jqueryCounterupMin.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>    
+    <script>
+        jQuery(document).ready(function ($) {
+
+            $('.counter').counterUp({
+                delay: 10,
+                time: 4000
+            });
+        });
+    </script>
+
 </body>
 
 </html>

@@ -222,6 +222,62 @@
     margin-bottom: 5%;
 }
 
+.counterDiv{
+    height: 25rem;
+    background-color:  rgb(37, 37, 37);
+}
+.counterContainer{
+    position: relative;
+    top: 10%;
+}
+/* COUNTER */
+.counter-section{
+    color: black;
+}
+.icon-box{
+    border: 1px solid goldenrod;
+    height: 100px;
+    width: 100px;
+    margin: 20% auto;
+    transform: rotate(45deg);
+}
+.fa{
+    font-size: 40px;
+    margin: 25px auto;
+    color: #ffc800;
+    transform: rotate(-45deg);
+}
+.counter-box, p{
+    font-size: 20px;
+}
+.counter{
+    font-size: 80px;
+}
+/* END OF COUNTER */
+.mvContainer{
+    height: 55rem;
+}
+.misionVision{
+    height: 60rem;
+    margin-top: 6%;
+}
+.misionImg{
+    height: 55rem;
+    background-image: url("/assets/images/tower.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mvTitles{
+    margin-top: 6%;
+}
+.mvParagraph{
+    font-size: 17px;
+    margin-bottom: 1.5rem;
+    width: 500px;
+    margin-left: 4%;
+}
+
 @media (max-width: 768px) {
     .innerDiv{
         position: relative;
@@ -286,6 +342,27 @@
     .contactSiteMap{
         height: 850px;
 
+    }
+    .counterDiv{
+        height: 92rem;
+    }
+    .mvParagraph{
+        width: 300px;
+    }
+    .misionVision{
+        height: 82rem;
+    }
+    .mvContainer{
+        height: 82rem;
+    }
+    .misionVision{
+        margin-top: 0%;
+    }
+    .misionImg{
+        height: 14rem;
+    }
+    .counter{
+        font-size: 40px;
     }
 }
 
