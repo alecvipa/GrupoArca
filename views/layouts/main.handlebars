@@ -12,7 +12,7 @@
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 
 
-<body>
+<body onload="incrementCount()">
     <div class="bg-dark center preFooter">
         <div class="container-fluid">
             <div class="row">
@@ -134,15 +134,57 @@
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
     <script src="/assets/js/jqueryCounterupMin.js"></script>
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>    
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
     <script>
-        jQuery(document).ready(function ($) {
+        function incrementCount(current_count) {
 
-            $('.counter').counterUp({
-                delay: 10,
-                time: 4000
-            });
-        });
+            function count1() {
+                let start // set on the first step to the timestamp provided
+                const el = document.getElementById('count') // get the element
+                const final = parseInt(el.textContent) // parse out the final number
+                const duration = 4000 // duration in ms
+                const step = ts => {
+                    if (!start) {
+                        start = ts
+                    }
+                    // get the time passed as a fraction of total duration
+                    let progress = (ts - start) / duration
+
+                    el.textContent = Math.floor(progress * final) // set the text
+                    if (progress < 1) {
+                        // if we're not 100% complete, request another animation frame
+                        requestAnimationFrame(step)
+                    }
+                }
+
+                requestAnimationFrame(step);
+            }
+            function count2() {
+                let start // set on the first step to the timestamp provided
+                const el = document.getElementById('count2') // get the element
+                const final = parseInt(el.textContent) // parse out the final number
+                const duration = 4000 // duration in ms
+                const step = ts => {
+                    if (!start) {
+                        start = ts
+                    }
+                    // get the time passed as a fraction of total duration
+                    let progress = (ts - start) / duration
+
+                    el.textContent = Math.floor(progress * final) // set the text
+                    if (progress < 1) {
+                        requestAnimationFrame(step)
+                    }
+                }
+
+                requestAnimationFrame(step);
+            }
+            count1();
+            count2();
+
+
+        }
+
     </script>
 
 </body>
