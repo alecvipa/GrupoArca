@@ -179,8 +179,50 @@
 
                 requestAnimationFrame(step);
             }
+            function count3() {
+                let start // set on the first step to the timestamp provided
+                const el = document.getElementById('count3') // get the element
+                const final = parseInt(el.textContent) // parse out the final number
+                const duration = 4000 // duration in ms
+                const step = ts => {
+                    if (!start) {
+                        start = ts
+                    }
+                    // get the time passed as a fraction of total duration
+                    let progress = (ts - start) / duration
+
+                    el.textContent = Math.floor(progress * final) // set the text
+                    if (progress < 1) {
+                        requestAnimationFrame(step)
+                    }
+                }
+
+                requestAnimationFrame(step);
+            }
+            function count4() {
+                let start // set on the first step to the timestamp provided
+                const el = document.getElementById('count4') // get the element
+                const final = parseInt(el.textContent) // parse out the final number
+                const duration = 4000 // duration in ms
+                const step = ts => {
+                    if (!start) {
+                        start = ts
+                    }
+                    // get the time passed as a fraction of total duration
+                    let progress = (ts - start) / duration
+
+                    el.textContent = Math.floor(progress * final) // set the text
+                    if (progress < 1) {
+                        requestAnimationFrame(step)
+                    }
+                }
+
+                requestAnimationFrame(step);
+            }
             count1();
             count2();
+            count3();
+            count4();
 
 
         }
