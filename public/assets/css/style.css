@@ -366,7 +366,7 @@
 }
 .hogarExp{
     height: 1000px;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
 .cardsContainer{
     margin-top: 10%;
@@ -379,6 +379,10 @@
     padding-right: 8%;
     padding-left: 8%;
 }
+.serviciosDiv{
+    margin-bottom: 5%;
+}
+
 @media (max-width: 768px) {
     .innerDiv{
         position: relative;
