@@ -12,6 +12,9 @@
 .center{
     text-align: center !important;
 }
+.ulsize14{
+    font-size: 14px !important;
+}
 .margin3{
     margin: 3% !important;
 }
@@ -277,7 +280,105 @@
     width: 500px;
     margin-left: 4%;
 }
+.obraCivilimg{
+    height: 30rem;
+    background-image: url("/assets/images/constructionworker.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+}
 
+.obraCivilimg:hover, .hogarImg:hover{
+    opacity: 0.3;
+    transition-duration: 0.5s;
+}
+.hogarImg{
+    height: 30rem;
+    background-image: url("/assets/images/realstate.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+}
+.choosing{
+    background-color: black;
+    margin-top: 4%;
+    margin-bottom: 20%;
+}
+
+.serviciosFsTitles{
+    color: white;
+    opacity: 1 ;
+}
+.serviciosUno{
+    background-color: black;
+    height: 20%;
+    width: 50%;
+    padding-left: 18%;
+    padding-top: 6%;
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translateY(-50%);
+    opacity: 0.9;
+    margin-right: 2%;
+}
+.serviciosDos{
+    background-color: black;
+    height: 20%;
+    width: 50%;
+    padding-left: 10%;
+    padding-top: 6%;
+    box-sizing: border-box;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translateY(-50%);
+    opacity: 0.9;
+    margin-right: 2%;
+}
+.ocTitle{
+    margin-top: 5%;
+    background-color: rgb(116, 115, 115) !important;
+    color: rgb(255, 187, 0);
+    margin-bottom: -5%;
+    padding: 1rem 1rem !important;
+}
+.hogardummie{
+    height: 16rem !important;
+    width: 63% !important;
+    margin-left: 18%;
+    margin-top: 32%;
+    border-radius: 8px;
+}
+.hogardummie2{
+    height: 40% !important;
+    padding-left: 2% !important;
+    padding-top: 8% !important;
+}
+.btnServiciosContacto{
+    font-size: 1.5rem !important;
+}
+.obraCivilExp{
+    margin-bottom: 7%;
+}
+.hogarExp{
+    height: 1000px;
+    margin-bottom: 10%;
+}
+.cardsContainer{
+    margin-top: 10%;
+    margin-left: 2.5%;
+}
+.cardRow1{
+    margin-bottom: 5%;
+}
+.cardBtn{
+    padding-right: 8%;
+    padding-left: 8%;
+}
 @media (max-width: 768px) {
     .innerDiv{
         position: relative;
@@ -364,5 +465,50 @@
     .counter{
         font-size: 40px;
     }
+    .obraCivilimg, .hogarImg{
+        height: 10rem;
+
+    }
+    .choosing{
+        margin-top: 15%;
+    }
+    .serviciosFsTitles{
+        font-size: 1rem;
+    }
+    .serviciosUno, .serviciosDos {
+        height: 40%;
+    }
+    .serviciosDos{
+        top: 50%;
+    }
+    .display-4{
+        font-size: 2.5rem !important;
+    }
+    .hogardummie{
+        width: 84% !important;
+        margin-left: 7%;
+        margin-top: 7%;
+    }
+    .hogardummie2{
+        top: 20% !important;
+        width: 61% !important;
+        left: 39% !important;
+        height: 20% !important;
+    }
+    .hogarPlaceholder{
+        height: 23.5rem !important;
+    }
+    .hogarExp{
+        height: 2130px;
+    }
+    .hogTitle{
+        font-size: 1.5rem !important;
+    }
+    .cardsContainer{
+        margin-top: 17% !important;
+        margin-left: 4% !important;
+
+    }
+
 }
 
