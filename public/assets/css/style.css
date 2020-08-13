@@ -31,13 +31,19 @@
     text-align: right;
 }
 .font{
-    font-family: 'Arimo', sans-serif;
+    font-family: 'Arimo', sans-serif !important;
 }
 .navbrand{
     width: 60% !important;
 }
 .nav-item:hover {
-    color: red !important;
+    color: #ce1a1e !important;
+}
+.colorArca {
+    color: #ce1a1e;
+}
+.bodyG{
+    background-color: rgb(223, 221, 221);
 }
 .preFooter{
     padding: 1%;  
@@ -57,6 +63,62 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-color: black;
+}
+.arcaphoto:hover{
+    /* opacity:1; */
+    filter: grayscale(100%);
+}
+.arca1photo{
+    background-image: url("/assets/images/cascos.jpg");
+    height: 20rem; 
+    width: 20rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 1%;
+    margin-right: 1%;
+    /* opacity: 0.8; */
+}
+.arca2photo{
+    background-image: url("/assets/images/cascos.jpg");
+    height: 20rem; 
+    width: 20rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 1%;
+    margin-right: 1%;
+    /* opacity: 0.8; */
+}
+.arca3photo{
+    background-image: url("/assets/images/cascos.jpg");
+    height: 20rem; 
+    width: 20rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 1%;
+    margin-right: 1%;
+    /* opacity: 0.8; */
+}
+.linkProyects{
+    margin-bottom: 10%;
+}
+.pointer {cursor: pointer;}
+.arca4photo{
+    background-image: url("/assets/images/cascos.jpg");
+    height: 20rem; 
+    width: 20rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 1%;
+    margin-right: 1%;
+    opacity: 0.8;
+}
+.linkProyects:hover{
+    color: #ce1a1e;
+    font-size: 14pt;
 }
 .socialMediaDiv{
     padding: 0%;
