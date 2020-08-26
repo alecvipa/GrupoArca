@@ -1,6 +1,9 @@
 .blackLetter{
     color: black !important;
 }
+body{
+    font-family: 'Arimo', sans-serif !important;
+}
 /* hr{
     background-color: red;
     border: 0;
@@ -201,9 +204,11 @@
     margin-bottom: 3%;
 }
 .proyectosInicio{
-    height: 50rem;
+    height: 55rem;
     background-color:  rgb(58, 58, 58);
     margin-top: 1.5%;
+    padding-top: 3%;
+    margin-bottom: -1%;
 }
 .btn-proyectosInicio{
     margin-top: 6%;
@@ -356,6 +361,33 @@
     background-size: cover;
     opacity: 1;
 }
+.imgPresentacion{
+    height: 30rem;
+    background-image: url("/assets/images/presentacion.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imgPlaneacion{
+    height: 30rem;
+    background-image: url("/assets/images/planeacion.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imgEjecucion{
+    height: 30rem;
+    background-image: url("/assets/images/ejecucion.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.nuestroProcesoTitle2{
+    opacity: 0.8;
+    font-size: 20px;
+    margin-bottom: 3%;
+}
 
 .obraCivilimg:hover, .hogarImg:hover{
     opacity: 0.3;
@@ -489,6 +521,7 @@
     }
     .proyectosInicio{
         height: 90rem;
+        padding-top: 10%;
     }
     .obrasCivilesInicio{
         font-size: 35px;
@@ -603,9 +636,15 @@
     .itemServicioSize{
         font-size: 2rem !important;
     }
+    .nuestroProcesoTitle{
+        font-size: 2rem;
+    }
 
 }
 @media (max-width: 400px) {
+    .nuestroProcesoTitle{
+        font-size: 2rem;
+    }
     .bgServiciosInicio{
         padding-bottom: 10%;
     }
@@ -635,6 +674,7 @@
     }
     .proyectosInicio{
         height: 90rem;
+        padding-top: 10%;
     }
     .obrasCivilesInicio{
         font-size: 35px;
