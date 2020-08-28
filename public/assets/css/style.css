@@ -43,7 +43,10 @@ body{
     color: #ce1a1e !important;
 }
 .colorArca {
-    color: #ce1a1e;
+    color: #ce1a1e !important;
+}
+.bg-Arca{
+    background-color: #ce1a1e !important ;
 }
 .itemServicios{
     margin-top: 5%;
@@ -158,7 +161,7 @@ body{
 }
 .titlesInicio{
     color: white;
-    padding: 70px 70px 60px;
+    padding: 50px 25px 60px;
     text-align: right;
 
 }
@@ -242,14 +245,17 @@ body{
     position: relative;
     top: 10%;
     margin-left: 5%;
-    font-size: 25px !important;
-    margin-top: 5%;
+    font-size: 19px !important;
+    margin-top: 4%;
 }
 .posibleParagraph{
     margin-left: 4%;
-    font-size: 20px;
+    font-size: 15px;
     width: 95%;
     text-align: right !important;
+}
+.list-group-item{
+    font-size: 12px;
 }
 .accessNosotrosInicio{
     height: 25rem;
@@ -299,8 +305,8 @@ body{
 }
 
 .counterDiv{
-    height: 25rem;
-    background-color:  rgb(37, 37, 37);
+    height: 31rem;
+    background-color:  rgb(177, 174, 174);
 }
 .counterContainer{
     position: relative;
@@ -311,7 +317,7 @@ body{
     color: black;
 }
 .icon-box{
-    border: 1px solid goldenrod;
+    border: 1px solid #ce1a1e;
     height: 100px;
     width: 100px;
     margin: 20% auto;
@@ -496,6 +502,10 @@ body{
 .btnServiciosInicioDiv{
     padding: 3%;
 }
+.titleStyleInicio {
+    width: 20rem;
+    margin-top: 20%;
+}
 
 @media (min-width: 401px) and (max-width: 768px) {
     .bgServiciosInicio{
@@ -503,7 +513,7 @@ body{
     }
     .innerDiv{
         position: relative;
-        height: 65%;
+        height: 35%;
         width: 100%;
         top: 55%;
         opacity: 0.8;
@@ -513,6 +523,7 @@ body{
     }
     .titleStyleInicio{
         width: 123%;
+        margin-top: -8%;
     }
     .proyectos-bg{
         height: 300pt; 
@@ -520,7 +531,7 @@ body{
         
     }
     .proyectosInicio{
-        height: 90rem;
+        height: 130rem;
         padding-top: 10%;
     }
     .obrasCivilesInicio{
@@ -566,7 +577,7 @@ body{
 
     }
     .counterDiv{
-        height: 92rem;
+        height: 72rem;
     }
     .mvParagraph{
         width: 300px;
@@ -639,9 +650,24 @@ body{
     .nuestroProcesoTitle{
         font-size: 2rem;
     }
+    .titlesInicio{
+
+      padding: 77px 95px 30px 1px;
+    }
+
+    .serviciosTitleRow{
+        margin-top: 10%;
+    }
 
 }
 @media (max-width: 400px) {
+    .serviciosTitleRow{
+        margin-top: 10%;
+    }
+    .titlesInicio{
+
+        padding: 77px 95px 30px 1px;
+    }
     .nuestroProcesoTitle{
         font-size: 2rem;
     }
@@ -656,7 +682,7 @@ body{
     }
     .innerDiv{
         position: relative;
-        height: 65%;
+        height: 35%;
         width: 100%;
         top: 55%;
         opacity: 0.8;
@@ -666,6 +692,7 @@ body{
     }
     .titleStyleInicio{
         width: 123%;
+        margin-top: -8%;
     }
     .proyectos-bg{
         height: 300pt; 
@@ -673,7 +700,7 @@ body{
         
     }
     .proyectosInicio{
-        height: 90rem;
+        height: 130rem;
         padding-top: 10%;
     }
     .obrasCivilesInicio{
@@ -719,7 +746,7 @@ body{
 
     }
     .counterDiv{
-        height: 92rem;
+        height: 72rem;
     }
     .mvParagraph{
         width: 300px;
