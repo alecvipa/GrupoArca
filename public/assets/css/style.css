@@ -37,7 +37,9 @@ body{
     font-family: 'Arimo', sans-serif !important;
 }
 .navbrand{
-    width: 60% !important;
+    width: 80% !important;
+    margin-bottom: -20%;
+    margin-top: -5%;
 }
 .nav-item:hover {
     color: #ce1a1e !important;
@@ -88,8 +90,9 @@ body{
     padding-top: 3%;
     padding-bottom: 3%;
     background-color: #ce1a1dc4;
-    width: 48rem;
-    margin-left: -19%
+    width: 36rem;
+    margin-left: -19%;
+    padding-left: 4%;
 
 }
 .arca1photo{
@@ -520,6 +523,59 @@ body{
     width: 20rem;
     margin-top: 20%;
 }
+.navbar{
+    margin-top: 6%;
+}
+.estructuraDiv{
+    height: 90rem;
+    padding-top: 3%;
+    background-color: rgba(0, 0, 0, 0.877);
+}
+.estructTtitleServicios{
+    font-size: 3.5rem !important;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+.menuServ{
+    height: 16rem;
+   padding-top: 5%;
+}
+.servMenuItems{
+    font-size: 4rem;
+    color: wheat ;
+}
+.servMenuTitles{
+    margin-top: 3%;
+    color: sandybrown;
+}
+.line1 {
+	border-top: 3px double sandybrown;
+}
+.carousel{
+    width: 60%;
+    margin-left: 20%;
+}
+.callToActionDiv{
+    background-image: url("/assets/images/constructionworker.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20rem;
+    padding-top: 3%;
+    margin-top: 5%;
+    
+}
+.callTitles{
+    opacity: 1;
+}
+.call2{
+    background-color: rgba(0, 0, 0, 0.808);
+    padding-bottom: 3%;
+    padding-top: 3%;
+}
+.phoneCall{
+    font-size: 22px;
+}
 
 @media (min-width: 401px) and (max-width: 768px) {
     .bgServiciosInicio{
@@ -677,12 +733,62 @@ body{
     }
     .solTot{
         margin-left: 0%;
+        padding-left: 0%;
+    }
+    .navbrand{
+        width: 68% !important;
+        margin-bottom: -26%;
+        margin-top: -3%;
+    }
+    .servMenuItems{
+        font-size: 3rem;
+        margin-top: 5%;
+    }
+    .menuServ{
+        height: 26rem; 
+        margin-top: 7%;
+    }
+    .estructTtitleServicios{
+        margin-top: 15%;
+    }
+    .carousel{
+        width: 100%;
+        margin-left: 0%;
+        margin-top: 10%;
+    }
+    .callToActionDiv{
+        height: 14rem;
     }
 
 }
 @media (max-width: 400px) {
+    .callToActionDiv{
+        height: 14rem;
+    }
+    .carousel{
+        width: 100%;
+        margin-left: 0%;
+        margin-top: 10%;
+    }
+    .estructTtitleServicios{
+        margin-top: 15%;
+    }
+    .menuServ{
+        height: 26rem; 
+        margin-top: 7%;
+    }
+    .servMenuItems{
+        font-size: 3rem;
+        margin-top: 5%;
+    }
+    .navbrand{
+        width: 68% !important;
+        margin-bottom: -26%;
+        margin-top: -3%;
+    }
     .solTot{
         margin-left: 0%;
+        padding-left: 0%;
     }
     .solTot2{
         font-size: 20pt;
