@@ -10,9 +10,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Arimo&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a077a0470e.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+</head>
 
-
-<body onload="incrementCount()" data-spy='scroll' data-target=".choosing" data-offset='50'>
+<body onload="incrementCount()" data-spy='scroll' data-target=".choosing" data-offset='50' class="font">
     <div class="bg-dark center preFooter">
         <div class="container-fluid">
             <div class="row">
@@ -42,43 +43,43 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-4">
-                    <a class="navbar-brand center" href="/">
-                        <img class="navbrand" src="/assets/images/ARCAlogo.png" alt="">
-                    </a>
-                </div>
-                <div class="col-md-8">
-                    <nav class="navbar navbar-expand-lg navbar-light bg-light font blackLetter">
-                        <button class="navbar-toggler" type="button" data-toggle="collapse"
-                            data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                            aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                            <div class="navbar-nav">
-                                <a class="nav-item nav-link blackLetter" href="/">Índice</a>
-                                <a class="nav-item nav-link blackLetter" href="/nosotros">Conocenos</a>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-item nav-link dropdown-toggle" href="/servicios" id="navbarDropdown"
-                                        role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
-                                        style="color: black;">
-                                        Nuestros Servicios
-                                    </a>
-                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <a class="nav-item dropdown-item" href="estructuras">Estructuras</a>
-                                        <div class="dropdown-divider"></div>
-                                        <a class="nav-item dropdown-item" href="obraCivil">Obra Civil</a>
-                                        <div class="dropdown-divider"></div>
-                                        <a class="nav-item dropdown-item" href="terraceria">Terracería</a>
-                                        <div class="dropdown-divider"></div>
-                                        <a class="nav-item dropdown-item" href="remodelacion">Remodelación</a>
-                                    </div>
-                                </li>
-                                <a class="nav-item nav-link blackLetter" href="/portafolio">Cómo trabajamos</a>
-                                <a class="nav-item nav-link blackLetter" href="/contacto">Contacto</a>
+                        <a class="navbar-brand center" href="/">
+                            <img class="navbrand" src="/assets/images/ARCAlogo.png" alt="">
+                        </a>
+                    </div>
+                    <div class="col-md-8">
+                        <nav class="navbar navbar-expand-lg navbar-light bg-light font blackLetter">
+                            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                                <div class="navbar-nav">
+                                    <a class="nav-item nav-link blackLetter" href="/">Índice</a>
+                                    <a class="nav-item nav-link blackLetter" href="/nosotros">Conócenos</a>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-item nav-link dropdown-toggle" href="/servicios"
+                                            id="navbarDropdown" role="button" data-toggle="dropdown"
+                                            aria-haspopup="true" aria-expanded="false" style="color: black;">
+                                            Nuestros Servicios
+                                        </a>
+                                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <a class="nav-item dropdown-item" href="estructuras">Estructura</a>
+                                            <div class="dropdown-divider"></div>
+                                            <a class="nav-item dropdown-item" href="obraCivil">Obra Civil</a>
+                                            <div class="dropdown-divider"></div>
+                                            <a class="nav-item dropdown-item" href="terraceria">Terracería</a>
+                                            <div class="dropdown-divider"></div>
+                                            <a class="nav-item dropdown-item" href="remodelacion">Remodelación</a>
+                                        </div>
+                                    </li>
+                                    <a class="nav-item nav-link blackLetter" href="/portafolio">Cómo trabajamos</a>
+                                    <a class="nav-item nav-link blackLetter" href="/contacto">Contacto</a>
+                                </div>
                             </div>
-                        </div>
-                    </nav>
-                </div>
+                        </nav>
+                    </div>
                 </div>
             </div>
         </div>
@@ -91,11 +92,11 @@
                     <div class="col-sm siteMap">
                         <h4 class="contactFooterTitles">MAPA DE SITIO</h3>
                             <br>
-                            <h5 class="siteMapItem" onclick="location.href='/inicio';">INICIO
+                            <h5 class="siteMapItem" onclick="location.href='/inicio';">ÍNDICE
                         </h4>
-                        <h5 class="siteMapItem" onclick="location.href='/nosotros';">NOSOTROS</h5>
-                        <h5 class="siteMapItem" onclick="location.href='/servicios';">SERVICIOS</h5>
-                        <h5 class="siteMapItem" onclick="location.href='/portafolio';">PORTAFOLIO</h5>
+                        <h5 class="siteMapItem" onclick="location.href='/nosotros';">CONÓCENOS</h5>
+                        {{!-- <h5 class="siteMapItem" onclick="location.href='/servicios';">SERVICIOS</h5> --}}
+                        <h5 class="siteMapItem" onclick="location.href='/portafolio';">CÓMO TRABAJAMOS</h5>
                         <h5 class="siteMapItem" onclick="location.href='/contacto';">CONTACTO</h5>
                     </div>
                     <div class="col-sm contactFooter">
