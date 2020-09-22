@@ -568,6 +568,15 @@ body{
     margin-top: 5%;
     
 }
+.callToActionDiv2{
+    background-image: url("/assets/images/constructionworker.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20rem;
+    padding-top: 3%;
+    
+}
 .callTitles{
     opacity: 1;
 }
@@ -578,6 +587,11 @@ body{
 }
 .phoneCall{
     font-size: 22px;
+}
+
+.contactoDivs{
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 @media (min-width: 401px) and (max-width: 768px) {
@@ -757,13 +771,13 @@ body{
         margin-left: 0%;
         margin-top: 10%;
     }
-    .callToActionDiv{
+    .callToActionDiv, .callToActionDiv2{
         height: 14rem;
     }
 
 }
 @media (max-width: 400px) {
-    .callToActionDiv{
+    .callToActionDiv, .callToActionDiv2{
         height: 14rem;
     }
     .carousel{

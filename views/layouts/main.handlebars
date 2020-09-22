@@ -11,6 +11,28 @@
     <script src="https://kit.fontawesome.com/a077a0470e.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <script>
+        function submitEmailForm(form) {
+            var obj = new XMLHttpRequest();
+            obj.onreadystatechange = function () {
+                if (obj.readyState == 4) {
+                    if (obj.status == 200) {
+                        var res = JSON.parse(obj.responseText);
+                        alert(res.message);
+                    }
+                    else {
+                        alert("XMLHttp status " + obj.status + ": " + obj.statusText);
+                    }
+                }
+            };
+            obj.open("post", form.action, true);
+            obj.setRequestHeader("Content-Type", "application/json"); // NOTICE: "application/json"
+            obj.send(JSON.stringify({ name: form.name.value, email: form.email.value, number: form.tel.value, message: form.message.value }));
+            alert("¡Mensaje enviado!, en breve nos comunicaremos");
+            $(".formInput").val(" ");
+            return false;
+        }
+    </script>
 </head>
 
 <body onload="incrementCount()" data-spy='scroll' data-target=".choosing" data-offset='50' class="font">
@@ -19,7 +41,8 @@
             <div class="row">
                 <div class="col-3"></div>
                 <div class="col-6">
-                    <i class="fas fa-map-marker-alt text-white"> <span class="font spacingParagraph"> CDMX</span> </i>&nbsp; &nbsp;
+                    <i class="fas fa-map-marker-alt text-white"> <span class="font spacingParagraph"> CDMX</span>
+                    </i>&nbsp; &nbsp;
                     {{!-- <a href="https://api.whatsapp.com/send?phone=525588488288" target="_blank"
                         rel="noopener noreferrer"><i class="fab fa-whatsapp" style="color: lime;"> <span
                                 style="color: rgb(187, 186, 186);" class="font">Cotización por

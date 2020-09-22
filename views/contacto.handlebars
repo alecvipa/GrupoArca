@@ -1,0 +1,48 @@
+<div class="callToActionDiv2">
+    <div class="call2 d-flex h-70 text-center align-items-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-4 text-center text-white">
+                    <h2 class="callTitles">Cotiza con nosotros</h2>
+                    <h5 class="callTitles spacingParagraph">Déjanos tus datos</h5>
+                </div>
+                <div class="col-md-4"></div>
+            </div>
+            <br>
+            <i class="fas fa-phone-square-alt phoneCall" style="color: white;"> <span class="font"><a
+                        href="tel:+525577111355" class="text-white">+52 55 77 11 13
+                        55</a></span></i>
+        </div>
+
+
+    </div>
+
+</div>
+<div class="container contactoDivs">
+    <form action="/ajax/email" method="POST" onsubmit="return submitEmailForm(this);">
+        <div class="form-group">
+            <label for="exampleFormControlInput1">Nombre completo</label>
+            <input type="name" class="form-control formInput" id="exampleFormControlInput1"
+                placeholder="Juan Ramón Camarena" name="name">
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlInput1">Correo Electrónico</label>
+            <input type="email" class="form-control formInput" id="exampleFormControlInput1"
+                placeholder="nombre@ejemplo.com" name="email">
+        </div>
+        <div class="form-group">
+
+            <label for="number">Número de Contacto</label>
+            <input type="number" name="tel" class="form-control formInput"
+                aria-describedby="numberHelp">
+
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1">Breve Mensaje</label>
+            <textarea type="message" class="form-control formInput" id="exampleFormControlTextarea1" rows="3"
+                name="message"></textarea>
+        </div>
+        <button type="submit" class="btn btn-dark spacingParagraph">Enviar</button>
+    </form>
+</div>

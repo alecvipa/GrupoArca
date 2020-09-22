@@ -1,9 +1,20 @@
+require('dotenv').config();
+
 // Dependencies
 var express = require("express");
 var exphbs = require("express-handlebars");
+const nodemailer = require("nodemailer");
+const email = process.env.email;
+const superSecretPwd = process.env.superSecretPwd;
+
+
+
 
 // Create an instance of the express app.
 var app = express();
+
+app.use(express.json());
+app.use(express.urlencoded({extended: false}));
 
 app.use(express.static("public"));
 
@@ -26,6 +37,38 @@ app.get('/:params?', function(req, res){
     res.render(params);
 })
 
+
+app.post("/ajax/email", function (request, response) {
+  console.log(email);
+  const transporter = nodemailer.createTransport({
+      service: 'gmail',
+      secure: false,
+      port: 25,
+      auth: {
+          user: email,
+          pass: superSecretPwd
+      },
+      tls: {
+          rejectUnauthorized: false
+      }
+  });
+
+  var textBody = `FROM: ${request.body.name}; EMAIL: ${request.body.email}; MESSAGE: ${request.body.message}`;
+  var htmlBody = `<h2>Correo de contacto</h2><p>Nombre: ${request.body.name} </p> <p> Correo electrónico: <a href='mailto: ${request.body.email}'>${request.body.email}</a></p><p>Número de contacto:${request.body.number} </p><p>Mensaje: ${request.body.message}</p>`;
+  var mail = {
+      from: '"Team: Grupo Arca"<grupoArca@gmail.com>',
+  to: 'hebrit_626@hotmail.com',
+  subject: '¡Alguien ha dejado sus datos en tu sitio web!',
+  html:htmlBody
+  };
+  transporter.sendMail(mail,function(err, info){
+      if (err) {
+          return console.log(err);
+      } else {
+          console.log("message sent!");
+      };
+  });
+});
 
 // Start our server so that it can begin listening to client requests.
 app.listen(PORT, function() {
