@@ -99,7 +99,7 @@ body{
 
 }
 .arca1photo{
-    background-image: url("/assets/images/cascos.jpg");
+    background-image: url("/assets/images/portadaEstructura.jpg");
     height: 20rem; 
     width: 20rem;
     background-position: center;
@@ -110,7 +110,7 @@ body{
     /* opacity: 0.8; */
 }
 .arca2photo{
-    background-image: url("/assets/images/cascos.jpg");
+    background-image: url("/assets/images/portadaObraCivil.jpeg");
     height: 20rem; 
     width: 20rem;
     background-position: center;
@@ -121,7 +121,7 @@ body{
     /* opacity: 0.8; */
 }
 .arca3photo{
-    background-image: url("/assets/images/cascos.jpg");
+    background-image: url("/assets/images/portadaTerraceria.jpg");
     height: 20rem; 
     width: 20rem;
     background-position: center;
@@ -139,7 +139,7 @@ body{
 }
 .pointer {cursor: pointer;}
 .arca4photo{
-    background-image: url("/assets/images/cascos.jpg");
+    background-image: url("/assets/images/portadaRemodelacion.jpg");
     height: 20rem; 
     width: 20rem;
     background-position: center;
