@@ -577,6 +577,14 @@ body{
     padding-top: 3%;
     
 }
+.obraSile1{
+    background-image: url("/assets/images/portadaObraCivil.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 28rem;
+    padding-top: 3%;
+}
 .callTitles{
     opacity: 1;
 }
@@ -774,9 +782,15 @@ body{
     .callToActionDiv, .callToActionDiv2{
         height: 14rem;
     }
+    .obraSile1{
+        height: 13.7rem;
+    }
 
 }
 @media (max-width: 400px) {
+    .obraSile1{
+        height: 13.7rem;
+    }
     .callToActionDiv, .callToActionDiv2{
         height: 14rem;
     }
