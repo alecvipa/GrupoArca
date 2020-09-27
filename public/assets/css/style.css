@@ -121,7 +121,7 @@ body{
     /* opacity: 0.8; */
 }
 .arca3photo{
-    background-image: url("/assets/images/portadaTerraceria.jpg");
+    background-image: url("/assets/images/portadaTerraceria.JPG");
     height: 20rem; 
     width: 20rem;
     background-position: center;
@@ -139,7 +139,7 @@ body{
 }
 .pointer {cursor: pointer;}
 .arca4photo{
-    background-image: url("/assets/images/portadaRemodelacion.jpg");
+    background-image: url("/assets/images/portadaRemodelacion.JPG");
     height: 20rem; 
     width: 20rem;
     background-position: center;
