@@ -4,6 +4,12 @@
 body{
     font-family: 'Arimo', sans-serif !important;
 }
+.font{
+    font-family: 'Anton', sans-serif !important;
+}
+.font2{
+    font-family: 'Arimo', sans-serif !important;
+}
 /* hr{
     background-color: red;
     border: 0;
@@ -36,9 +42,7 @@ body{
 .right {
     text-align: right;
 }
-.font{
-    font-family: 'Anton', sans-serif !important;
-}
+
 .navbrand{
     width: 99% !important;
     margin-bottom: -28%;
@@ -57,7 +61,8 @@ body{
     margin-top: 5%;
 }
 .bodyG{
-    background-color: rgb(214, 233, 241);
+    /* background-color: rgb(214, 233, 241); */
+    background-color: rgba(241, 225, 162, 0.335);
 }
 .preFooter{
     padding: 1%;  
@@ -99,7 +104,7 @@ body{
 
 }
 .arca1photo{
-    background-image: url("/assets/images/portadaEstructura.jpg");
+    background-image: url("/assets/images/estructuras.jpeg");
     height: 20rem; 
     width: 20rem;
     background-position: center;
@@ -267,20 +272,22 @@ body{
     margin-left: 5%;
     font-size: 19px !important;
     margin-top: 4%;
+    font-weight: bolder;
+    font-size: 3rem !important;
 }
 .posibleParagraph{
     margin-left: 4%;
-    font-size: 15px;
-    width: 95%;
+    font-size: 1.2rem;
+    width: 90%;
     text-align: right !important;
 }
 .list-group-item{
-    font-size: 12px;
+    font-size: 1rem;
 }
 .accessNosotrosInicio{
-    height: 25rem;
+    height: 38rem;
     background-color: rgba(231, 104, 0, 0.808);
-    background-image: url("/assets/images/cascos.jpg");
+    background-image: url("/assets/images/cascos.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -288,7 +295,7 @@ body{
 }
 .innerDivNosotros{
    
-    height: 50%;
+    height: 28%;
     width: 60%;
     box-sizing: border-box;
     position: absolute;
@@ -300,7 +307,7 @@ body{
 
 }
 .posibleInicio{
-    height: 25rem;
+    height: 38rem;
     margin-bottom: 5%;
     margin-top: 4%;
 }
@@ -639,18 +646,18 @@ body{
     }
     .posibleParagraph{
         margin-left: 3%;
-        margin-top: 20%;
+        margin-top: 45%;
         font-size: 16px;
         width: 90%;
     }
     .posibleInicio{
         height: 37rem;
-        margin-bottom: 30%;
+        margin-bottom: 22rem;
         margin-top: 4%;
     }
-    .posibleParagraph{
+    /* .posibleParagraph{
         margin-top: 10%;
-    }
+    } */
     .accessNosotrosInicio{
         height: 13rem;
         background-color: rgba(231, 104, 0, 0.808);
@@ -785,9 +792,15 @@ body{
     .obraSile1{
         height: 13.7rem;
     }
+    .posibleTitle{
+        font-size: 2rem !important;
+    }
 
 }
 @media (max-width: 400px) {
+    .posibleTitle{
+        font-size: 2rem !important;
+    }
     .obraSile1{
         height: 13.7rem;
     }
@@ -874,18 +887,18 @@ body{
     }
     .posibleParagraph{
         margin-left: 3%;
-        margin-top: 20%;
+        margin-top: 45%;
         font-size: 16px;
         width: 90%;
     }
     .posibleInicio{
         height: 37rem;
-        margin-bottom: 30%;
+        margin-bottom: 22rem;
         margin-top: 4%;
     }
-    .posibleParagraph{
+    /* .posibleParagraph{
         margin-top: 10%;
-    }
+    } */
     .accessNosotrosInicio{
         height: 13rem;
         background-color: rgba(231, 104, 0, 0.808);
@@ -1007,7 +1020,7 @@ header {
     height: 100%;
     width: 100%;
     background-color: black;
-    opacity: 0.6;
+    opacity: 0.4;
     z-index: 1;
   }
   
