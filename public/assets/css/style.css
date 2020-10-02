@@ -64,6 +64,9 @@ body{
     /* background-color: rgb(214, 233, 241); */
     background-color: rgba(241, 225, 162, 0.335);
 }
+.titleBannerHeader{
+    font-size: 1.2rem;
+}
 .preFooter{
     padding: 1%;  
 }
@@ -103,6 +106,15 @@ body{
     padding-left: 4%;
 
 }
+.solTotNegro{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    width: 80%;
+    margin-left: 10%;
+    padding-left: 4%;
+
+}
+
 .arca1photo{
     background-image: url("/assets/images/estructuras.jpeg");
     height: 20rem; 
@@ -137,7 +149,9 @@ body{
     /* opacity: 0.8; */
 }
 .proyectosTitleArca{
-    font-size: 3.5rem !important;
+    font-size: 6rem !important;
+    margin-top: 3%;
+    margin-left: -10%;
 }
 .linkProyects{
     margin-bottom: 10%;
@@ -282,7 +296,7 @@ body{
     text-align: right !important;
 }
 .list-group-item{
-    font-size: 1rem;
+    font-size: 1.3rem;
 }
 .accessNosotrosInicio{
     height: 38rem;
@@ -521,10 +535,15 @@ body{
     width: 30rem;
     border-radius: 8px;
 }
+.serviciosTitleRow2{
+    padding: 2%;
+    width: 30rem;
+    border-radius: 8px;
+}
 .bgServiciosInicio{
-    background-color: rgb(238, 236, 236) ;
     padding: 3%;
     padding-bottom: 4%;
+    margin-top: -6%;
 }
 .btnServiciosInicioDiv{
     padding: 3%;
@@ -609,6 +628,10 @@ body{
     margin-bottom: 5%;
 }
 
+.itemServicioSize{
+    font-size: 4rem;
+}
+
 @media (min-width: 401px) and (max-width: 768px) {
     .bgServiciosInicio{
         padding-bottom: 10%;
@@ -652,7 +675,7 @@ body{
     }
     .posibleInicio{
         height: 37rem;
-        margin-bottom: 22rem;
+        margin-bottom: 24rem;
         margin-top: 4%;
     }
     /* .posibleParagraph{
@@ -893,7 +916,7 @@ body{
     }
     .posibleInicio{
         height: 37rem;
-        margin-bottom: 22rem;
+        margin-bottom: 24rem;
         margin-top: 4%;
     }
     /* .posibleParagraph{
