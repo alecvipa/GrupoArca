@@ -21,6 +21,9 @@ body{
 .center{
     text-align: center !important;
 }
+.bolder{
+    font-weight: bolder !important;
+}
 .spacingParagraph{
     letter-spacing: 1.5px;
 }
@@ -715,11 +718,11 @@ body{
         width: 300px;
     }
     .misionVision{
-        height: 86rem;
+        height: 95rem;
         margin-top: 0%;
     }
     .mvContainer{
-        height: 82rem;
+        height: 94rem;
     }
     .misionImg{
         height: 14rem;
@@ -968,11 +971,11 @@ body{
         width: 300px;
     }
     .misionVision{
-        height: 86rem;
+        height: 95rem;
         margin-top: 0%;
     }
     .mvContainer{
-        height: 82rem;
+        height: 94rem;
     }
     .misionImg{
         height: 14rem;
