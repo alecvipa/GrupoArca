@@ -378,14 +378,14 @@ body{
 }
 /* END OF COUNTER */
 .mvContainer{
-    height: 55rem;
+    height: 59rem;
 }
 .misionVision{
     height: 60rem;
     margin-top: 6%;
 }
 .misionImg{
-    height: 55rem;
+    height: 59rem;
     background-image: url("/assets/images/tower.jpg");
     background-position: center;
     background-repeat: no-repeat;
