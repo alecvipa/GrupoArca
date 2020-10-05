@@ -825,13 +825,13 @@ body{
         width: 90%;
     }
     .rowWithNoMargin{
-        margin-left: 15px;
+        margin-left: 1rem;
     }
 
 }
 @media (max-width: 400px) {
     .rowWithNoMargin{
-        margin-left: 15px;
+        margin-left: 1rem;
     }
     .posibleTitle{
         font-size: 2rem !important;
