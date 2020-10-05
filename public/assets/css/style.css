@@ -824,9 +824,15 @@ body{
         font-size: 16px;
         width: 90%;
     }
+    .rowWithNoMargin{
+        margin-left: 10px;
+    }
 
 }
 @media (max-width: 400px) {
+    .rowWithNoMargin{
+        margin-left: 10px;
+    }
     .posibleTitle{
         font-size: 2rem !important;
     }
