@@ -632,6 +632,13 @@ body{
     font-size: 4rem;
 }
 
+@media (min-width: 401px) and (min-width: 770px) {
+    .menuFontSize{
+        font-size: 21px !important;
+    }
+}
+
+
 @media (min-width: 401px) and (max-width: 768px) {
     .bgServiciosInicio{
         padding-bottom: 10%;
