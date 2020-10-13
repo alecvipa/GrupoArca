@@ -141,7 +141,7 @@ body{
     /* opacity: 0.8; */
 }
 .arca3photo{
-    background-image: url("/assets/images/portadaTerraceria.JPG");
+    background-image: url("/assets/images/terraceria2.jpeg");
     height: 20rem; 
     width: 20rem;
     background-position: center;
@@ -413,22 +413,22 @@ body{
 }
 .imgPresentacion{
     height: 30rem;
-    background-image: url("/assets/images/presentacion.jpg");
-    background-position: center;
+    background-image: url("/assets/images/presentacionProceso.jpeg");
+    background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .imgPlaneacion{
     height: 30rem;
-    background-image: url("/assets/images/planeacion.jpg");
+    background-image: url("/assets/images/planeacionProceso.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .imgEjecucion{
     height: 30rem;
-    background-image: url("/assets/images/ejecucion.jpg");
-    background-position: center;
+    background-image: url("/assets/images/ejecucionProceso.jpeg");
+    background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
 
